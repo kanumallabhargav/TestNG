@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Total thing">
+  <test name="First Test">
+    <classes>
+      <class name="pkgOne.Basic"/>
+      <class name="pkgOne.Basic2"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name = "Second Test">
+    <classes>
+      <class name="pkgOne.Basic3"/>
+    </classes>
+  </test>
+  
+</suite> <!-- Suite -->
